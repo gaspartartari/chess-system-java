@@ -1,18 +1,25 @@
-## Getting Started
+# Chess Console Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a simple console-based chess game implemented in Java. It provides a text-based interface for playing chess against another human player. The game supports standard chess rules, including special moves such as castling, en passant, and pawn promotion.
 
-## Folder Structure
+## How to Play
 
-The workspace contains two folders by default, where:
+1. Clone the repository to your local machine.
+2. Open the project in a Java development environment (IDE) of your choice.
+3. Run the `Program` class in the `application` package to start the game.
+4. Follow the on-screen instructions to make your moves. Enter source and target positions in algebraic notation (e.g., "e2" to "e4").
+5. Enjoy playing chess with a friend!
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Text-based interface suitable for console play.
+- Supports standard chess rules and special moves.
+- Displays the chessboard after each move.
+- Alerts for check and checkmate situations.
+- Pawn promotion feature.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Credits
 
-## Dependency Management
+This chess game is implemented in Java and uses object-oriented programming principles. The project structure includes packages for the game logic (`chess`), the game interface (`application`), and a basic board game framework (`boardgame`). The chess pieces are implemented as separate classes, inheriting from the `ChessPiece` abstract class.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Special thanks to the contributors who helped create this simple yet functional console chess game!
