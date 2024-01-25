@@ -22,4 +22,3 @@ This project is a simple console-based chess game implemented in Java. It provid
 
 This chess game is implemented in Java and uses object-oriented programming principles. The project structure includes packages for the game logic (`chess`), the game interface (`application`), and a basic board game framework (`boardgame`). The chess pieces are implemented as separate classes, inheriting from the `ChessPiece` abstract class.
 
-Special thanks to the contributors who helped create this simple yet functional console chess game!
